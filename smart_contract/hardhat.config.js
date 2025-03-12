@@ -20,8 +20,8 @@ module.exports = {
     hardhat: {
     },
     sepolia: {
-      url: "https://eth-sepolia.g.alchemy.com/v2/_Q8XHfGeV-cEgcEOGoQ5UTDii669MTio",
-      accounts:["6fd59f71789b386d8aa78d0e6b0dfb5f04dddff1609c832efa3179edb65d8184"]
+      url:process.env.url ,
+      accounts:process.env.accounts
     }
   },
   solidity: {
